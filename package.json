@@ -1,0 +1,13 @@
+{
+    "name": "tron-account",
+    "version": "1.0.0",
+    "description": "Scripts to interact with TRON network",
+    "main": "getAccount.js",
+    "scripts": {
+      "create-account": "node createAccount.js",
+      "get-account": "node getAccount.js"
+    },
+    "dependencies": {
+      "tronweb": "^2.8.0"
+    }
+  }
